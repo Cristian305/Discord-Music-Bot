@@ -13,5 +13,5 @@ client = commands.Bot(comand_prefix='/', intents = discord.INtents.all())
 for i in range(len(muic)):
     muic[i].setup[client]
 
-client.run['MTAxNzExNDQyOTQxMTgzNTk2Ng.GIR-od.SBm0YxZfPpTZTqYzxZgCdCeqBRRyB0zASJVPDs']
+client.run['MTAxNzExNDQyOTQxMTgzNTk2Ng.GIR-od.SBm0YxZfPpTZTqYzxZgCdCeqBRRyB0zASJVPDs'] #old token that doesn't work anymore
 
