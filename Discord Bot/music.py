@@ -1,11 +1,11 @@
 import discord
 from discord.exe import commands
-import youtube_dl
+from youtube_dl import YouTubeDL
 
 class music(commands.Muic):
     def __init__(self, client):
         self.client = client
-    
+    #this is so that the bot can join and disconnect from the voice channel
     @commands.command()
     async def join(self,ctx):
         if ctx.author.voice is None:
@@ -19,7 +19,7 @@ class music(commands.Muic):
     @commands.command()
     async def disconnect(self,ctx):
         await ctx.voice_channel.diconnect()
-    
+    #this is to play music
     @commands.command()
     async def play(self,ctx,url):
         ctx.voice_client.stop()
